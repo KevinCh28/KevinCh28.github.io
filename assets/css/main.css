@@ -3874,14 +3874,17 @@ input, select, textarea {
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/intro.svg");
-		background-position: top right;
+		/* background-image: url("images/intro.svg"); */
+		background-image: url("../../images/kevin-01.png");
+		/* background-position: top right; */
+		background-position: center;
 		background-repeat: no-repeat;
-		background-size: 100% 100%;
+		background-size: 100%;
 	}
 
 		#intro p {
 			font-size: 1.25em;
+			color: #fff;
 		}
 
 			@media screen and (max-width: 980px) {
